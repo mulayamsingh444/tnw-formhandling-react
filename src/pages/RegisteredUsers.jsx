@@ -21,7 +21,7 @@ function RegisteredUsers() {
 
   useEffect(()=>{
     if(users.length == 0){
-      console.log("users.length", users.length == 0)
+      console.log("users.length", users.length == 0);
       api.getReq("register")
       .then((data)=>{
       console.log("data", data)
