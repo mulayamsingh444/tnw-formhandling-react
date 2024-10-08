@@ -19,7 +19,9 @@ function ViewModal({isVisible, onClose, children}) {
 
   : 
 
-  null
+  <div>
+    
+  </div>
   )
 }
 

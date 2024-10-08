@@ -6,7 +6,7 @@ import ViewModal from './ViewModal';
 let myData = [];
 
 (async ()=>{
-const response = await api.getReq("quote");
+const response = await api.getReq("register");
 
 myData = response;
 })();
